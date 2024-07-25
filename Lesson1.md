@@ -14,4 +14,7 @@
 
 ## Graphics API
 - A set of functions that perform basic operations such as drawing images and 3D surfaces into windows on the screen.
-- Every graphics program needs to be able to use two related APIs: **a graphics API** for visual output and **a user-interface API** to get input from the user.
+- Every graphics program needs to be able to use two related APIs: **a graphics API for visual output** and **a user-interface API to get input from the user&**.
+
+## Graphics Pipeline
+
