@@ -1,5 +1,5 @@
 ## Computer Graphics
-- a field of computer science that focuses on the creation, manipulation, and representation of visual images and animations using computers.
+- A field of computer science that focuses on the creation, manipulation, and representation of visual images and animations using computers.
 
 ## Major Areas of Computer Graphics
 1. **Modeling** refers to the process of creating a mathematical representation of a 3D object or shape.
@@ -13,5 +13,5 @@
 4. **Animated films** use many of the same techniques that are used for visual effects, but without necessarily aiming for images that look real.
 
 ## Graphics API
-- a set of functions that perform basic operations such as drawing images and 3D surfaces into windows on the screen.
+- A set of functions that perform basic operations such as drawing images and 3D surfaces into windows on the screen.
 - Every graphics program needs to be able to use two related APIs: **a graphics API** for visual output and **a user-interface API** to get input from the user.
