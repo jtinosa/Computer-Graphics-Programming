@@ -17,4 +17,6 @@
 - Every graphics program needs to be able to use two related APIs: **a graphics API for visual output** and **a user-interface API to get input from the user&**.
 
 ## Graphics Pipeline
+- An abstract model used to describe a sequence of steps needed in rendering a three-dimensional scene.
+- It enables a computational task to be split into subtasks thus increasing overall efficiency.
 
