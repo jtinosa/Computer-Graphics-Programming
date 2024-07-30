@@ -1,3 +1,3 @@
 # Computer-Graphics-Programming
-- [Reference Book](comgraph.pdf)
+- [Reference](comgraph.pdf)
 - [Lesson 1](Lesson1.md)
