@@ -28,8 +28,13 @@
 4. **Animated films** use many of the same techniques that are used for visual effects, but without necessarily aiming for images that look real.
 
 ## Graphics API
-- A set of functions that perform basic operations such as drawing images and 3D surfaces into windows on the screen.
-- Every graphics program needs to be able to use two related APIs: **a graphics API for visual output** and **a user-interface API to get input from the user**.
+- **Graphics Processing Unit (GPU)** features a highly parallel structure that makes it more efficient than CPUs for rendering computer graphics.
+- **Shaders** are used to perform many different computations required in the rendering process run by the GPU.
+- Shader programming languages implement an application programming interface (API).
+- These APIs are a set of commands, functions, and protocols that can be used in interacting with an external system such as the GPU. Below are some APIs and their corresponding shader languages:
+  - **DirectX API & High-Level Shading Language (HLSL)** - used in Microsoft Platforms.
+  - **Metal API & Metal Shading Language** - used in Apple Platforms.
+  - **OpenGL (Open Graphics Library) API & OpenGL Shading Language (GLSL)** - cross platform.
 
 ## Graphics Pipeline
 - An abstract model used to describe a sequence of steps needed in rendering a three-dimensional scene.
