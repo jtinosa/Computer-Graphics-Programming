@@ -12,6 +12,13 @@
 3. **Visual effects** use almost all types of computer graphics technology. Almost every modern film uses digital compositing to superimpose backgrounds with separately filmed foregrounds. Many films also use 3D modeling and animation to create synthetic environments, objects, and even characters that most viewers will never suspect are not real.
 4. **Animated films** use many of the same techniques that are used for visual effects, but without necessarily aiming for images that look real.
 
+## Raster Graphics
+- A **raster** is an array of pixels displayed on a screen, arranged in a grid with two dimensions.
+- A **pixel** is the smallest unit of a digital image or graphic that can be displayed. It specify colors using triples of floating-point numbers between 0 and 1, which represent the amount of red, green, and blue light existing in a color. A pixel value of 0 indicates that no amount of that color exists, while a value of 1 represents that color is displayed at full intensity.
+- The quality of an image depends partly on its **resolution** and **precision**.
+- **Resolution** refers to the number of pixels in an image, typically described in terms of the width and height of the image in pixels (e.g., 1920x1080).
+- **Precision** is the number of bits used for each pixel. Higher precision allows for more accurate and subtle variations in color and intensity, leading to more realistic and detailed images.
+
 ## Graphics API
 - A set of functions that perform basic operations such as drawing images and 3D surfaces into windows on the screen.
 - Every graphics program needs to be able to use two related APIs: **a graphics API for visual output** and **a user-interface API to get input from the user**.
