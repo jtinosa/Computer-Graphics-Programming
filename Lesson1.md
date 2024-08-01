@@ -19,6 +19,16 @@
 - **Resolution** refers to the number of pixels in an image, typically described in terms of the width and height of the image in pixels (e.g., 1920x1080).
 - **Precision** is the number of bits used for each pixel. Higher precision allows for more accurate and subtle variations in color and intensity, leading to more realistic and detailed images.
 
+## Framebuffers and Buffers
+- **Framebuffer:** Memory region storing pixel data.
+  - **Color Buffer:** Stores RGB values.
+  - **Depth Buffer:** Stores distances from scene objects to the camera.
+  - **Stencil Buffer:** Used for advanced effects like shadows and reflections.
+  - **Accumulation Buffer:** Used for complex image processing tasks.
+- **Buffer:** Temporary storage for data during transfers.
+  - **Vertex Buffer:** Stores vertex data.
+  - **Index Buffer:** Stores indices for vertex reuse.
+
 ## Graphics API
 - A set of functions that perform basic operations such as drawing images and 3D surfaces into windows on the screen.
 - Every graphics program needs to be able to use two related APIs: **a graphics API for visual output** and **a user-interface API to get input from the user**.
