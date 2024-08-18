@@ -5,9 +5,12 @@
 ## Starting a turtle environment
 - In a Python shell, import all the objects of the turtle module:
 ```
-from turtle import *
+import turtle
 ```
 - If you run into a No module named '_tkinter' error, you’ll have to install the Tk interface package on your system.
+```
+import tkinter
+```
 
 ## Turtle Fundamentals
 - To create a turtle screen
