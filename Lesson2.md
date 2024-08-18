@@ -1,10 +1,41 @@
-## Graphics Pipeline
-- An abstract model used to describe a sequence of steps needed in rendering a three-dimensional scene.
-- It enables a computational task to be split into subtasks thus increasing overall efficiency.
+## Turtle Graphics
+- Turtle Graphics provides a representation of a physical “turtle” (a little robot with a pen) that draws on a sheet of paper on the floor.
+- It’s an effective and well-proven way for learners to encounter programming concepts and interaction with software, as it provides instant, visible feedback.
 
-## Stages of Graphics Pipeline
-1. **Application** – initializing the window where rendered graphics will be displayed; sending data to the GPU.
-2. **Geometry Processing** – determining the position of each vertex of the geometric shapes to be rendered, implemented by a program known as vertex shader.
-3. **Rasterization** – determining which pixels correspond to the geometric shapes to be rendered.
-4. **Pixel Processing** – determining the color of each pixel in the rendered image, involving a program called a fragment shader.
+## Starting a turtle environment
+- In a Python shell, import all the objects of the turtle module:
+``` from turtle import * ```
+- If you run into a No module named '_tkinter' error, you’ll have to install the Tk interface package on your system.
+
+## Turtle Fundamentals
+- To create a turtle screen
+``` ts = turtle.getscreen() ```
+- To create a turtle instance
+``` t = turtle.Turtle() ```
+- To send the turtle forward 100 steps
+``` t.forward(100) ```
+- To change the turtle direction to the left/right by 120 degrees angle
+``` t.left(120) ```
+``` t.right(120) ```
+- To change the position of the turtle
+``` t.goto(100, 100) ```
+- To change the position of the turtle without drawing in the canvas
+``` t.penup() ```
+- To start drawing in the canvas again after moving position
+``` t.pendown() ```
+- To go back to the initial position
+``` t.home() ```
+- To change the turtle's pen color
+``` t.color("red") ```
+- To create a circle with a diameter of 100
+``` t.circle(100) ```
+- To fill the circle with a yellow color
+```
+t.fillcolor("yellow")
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+```
+
+
 
