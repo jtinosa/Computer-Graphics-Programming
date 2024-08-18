@@ -30,17 +30,29 @@ t.left(120)
 t.right(120)
 ```
 - To change the position of the turtle
-``` t.goto(100, 100) ```
+```
+t.goto(100, 100)
+```
 - To change the position of the turtle without drawing in the canvas
-``` t.penup() ```
+```
+t.penup()
+```
 - To start drawing in the canvas again after moving position
-``` t.pendown() ```
+```
+t.pendown()
+```
 - To go back to the initial position
-``` t.home() ```
+```
+t.home()
+```
 - To change the turtle's pen color
-``` t.color("red") ```
+```
+t.color("red")
+```
 - To create a circle with a diameter of 100
-``` t.circle(100) ```
+```
+t.circle(100)
+```
 - To fill the circle with a yellow color
 ```
 t.fillcolor("yellow")
