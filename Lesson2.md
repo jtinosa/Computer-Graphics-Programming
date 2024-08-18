@@ -4,19 +4,31 @@
 
 ## Starting a turtle environment
 - In a Python shell, import all the objects of the turtle module:
-``` from turtle import * ```
+```
+from turtle import *
+```
 - If you run into a No module named '_tkinter' error, you’ll have to install the Tk interface package on your system.
 
 ## Turtle Fundamentals
 - To create a turtle screen
-``` ts = turtle.getscreen() ```
+```
+ts = turtle.getscreen()
+```
 - To create a turtle instance
-``` t = turtle.Turtle() ```
+```
+t = turtle.Turtle()
+```
 - To send the turtle forward 100 steps
-``` t.forward(100) ```
+```
+t.forward(100)
+```
 - To change the turtle direction to the left/right by 120 degrees angle
-``` t.left(120) ```
-``` t.right(120) ```
+```
+t.left(120)
+```
+``` 
+t.right(120)
+```
 - To change the position of the turtle
 ``` t.goto(100, 100) ```
 - To change the position of the turtle without drawing in the canvas
