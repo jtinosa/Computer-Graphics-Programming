@@ -18,9 +18,13 @@ ts = turtle.getscreen()
 ```
 t = turtle.Turtle()
 ```
-- To send the turtle forward 100 steps
+- To move the turtle forward by 100 steps
 ```
 t.forward(100)
+```
+- To move the turtle backward by 100 steps
+```
+t.backward(100)
 ```
 - To change the turtle direction to the left/right by 120 degrees angle
 ```
