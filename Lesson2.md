@@ -15,7 +15,7 @@ import tkinter
 ## Turtle Fundamentals
 - To create a turtle screen
 ```
-ts = turtle.getscreen()
+ts = turtle.Screen()
 ```
 - To create a turtle instance
 ```
